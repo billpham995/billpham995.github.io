@@ -1,0 +1,271 @@
+/* CSS stylesheet for my portfolio */
+
+/* Background of website */
+body {	
+	background: url("images/background.jpg");
+}
+
+/* Body outer section style */
+div {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	
+	border: 0;
+	border-radius: 15px; /* border edges */
+	
+	overflow: auto; /* if content overflows, scroll bar is added to scroll, and stop it and images go over the container border */
+}
+	
+/* Body inner section style */
+#div_2 {
+	width: 70%;
+	background-image: url(''); 
+}
+
+/* Table for listing my skills homepage */
+#skill_tb {
+	width: 100%;
+	table-layout: fixed;
+}
+
+#skill_tb td {
+	border: 1px solid #ccc;
+	text-align: center;
+	font-size: 18px;
+	word-wrap: break-word;
+}
+
+#skill_tb img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Grid Container to list my skills */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px; /* space between containers */
+  background-color: ;
+  padding: 0px;
+}
+.grid-container > div {
+  background-color: #f1f1f1;
+  color: #000;
+  text-align: center;
+}
+
+/* Link & visited page */
+a:link, a:visited {
+	text-decoration: none;
+	color: ;
+}
+
+
+/* Whole navigation bar */
+nav {
+	text-align: center;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightgray;
+
+	/* Nav bar follow when scrolling */
+	position: sticky;
+	top: 0;
+	
+	/* put nav to horizonal style */
+	display: flex;
+	justify-content: center; /* align the whole content to center */
+}
+
+/* Navigation link & visited */
+nav a:link, nav a:visited {
+	display: block;
+	color: black;
+	padding: 5px 10px; /* size of link container (height-width) */
+	text-decoration: none; /* remove underscore */
+	border: 1px solid black;/* Add border around each link */
+}
+
+/* When mouse cursor hovers the invidual nav bar */
+nav a:hover {
+	color: blue;
+}
+
+/* current active bar */
+nav a.active {
+	background-color: green;
+	color: white;
+}
+
+/* Header level 1 */
+h1 {
+	text-align:;
+	color: ;
+	font-family: ;
+}
+
+/* Header level 2 */
+h2, h3 {
+	color: ;
+	margin: ;
+	font-family: ;
+}
+
+/* Paragraph */
+p {
+	font-size: ;
+}
+
+/* Custom text align */
+#txt_cen {
+	text-align: center;
+}
+
+#txt_ri {
+	text-align:right;
+}
+
+/* Custom image align */
+#img_cen {
+	display: block;
+	margin: 0 auto;
+}
+
+#img_le {
+	float: left;
+}
+
+#img_ri {
+	float: right;
+}
+
+/* Image size */
+#img_main {
+	height: 400px;
+	width: 900px;
+}
+
+#img_tb {
+	height: 150px;
+	width: 150px;
+}
+
+#img_grid {
+	height:250px;
+	width:350px;
+}
+
+#img_mini_icon {
+	height: 30 px;
+	width: 30px;
+}
+
+#img_mini_icon2 {
+	height: 16 px;
+	width: 16 px;
+}
+
+#img_proj {
+	height: 500px;
+	width: 900px;
+	display: block;
+	margin: 0 auto;
+}
+
+#img_proj2 {
+	height: 500px;
+	width: 1000px;
+	display: block;
+	margin: 0 auto;
+}
+
+#img_proj3 {
+	height: 300px;
+	width: 900px;
+	display: block;
+	margin: 0 auto;
+}
+
+#img_proj4 {
+	height: 700px;
+	width: 900px;
+	display: block;
+	margin: 0 auto;
+}
+
+#img_proj5 {
+	height: 1100px;
+	width: 700px;
+	display: block;
+	margin: 0 auto;
+}
+
+#img_proj_revert {
+	height: 900px;
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+}
+
+#img_proj2_revert {
+	height: 1100px;
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+}
+
+#img_intro {
+	height: 400px;
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+}
+
+/* List of links to other webpages */
+.ul_pg {
+	font-size:18px;
+}
+
+.ul_pg li {
+	list-style-type: none;
+}
+
+/* Back to Top Button */		
+.backtopbutton {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	position:fixed;
+	top: 50%;
+	right: 10px;
+}
+.backtopbutton button {
+	font-size: 20px;
+	padding: 5px 10px;
+	background-color:orange;
+	font-weight:bold;
+}
+
+
+
+/* Signature */
+#mysign	{
+	text-align: center;
+	color: ;
+	background: lightgray;
+	margin-bottom: 0;
+	clear: right;
+				
+	/* create border edge */
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;			
+}
+
+
+
