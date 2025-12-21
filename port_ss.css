@@ -23,6 +23,16 @@ div {
 	background-image: url(''); 
 }
 
+/* Container for introduction of me */
+#intro_con {
+  background-image: url("path/to/your/image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px; /* Set a specific height for the container */
+  width: 100%; /* Optional: set width as needed */
+}   
+
 /* Table for listing my skills homepage */
 #skill_tb {
 	width: 100%;
@@ -266,6 +276,7 @@ p {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
