@@ -29,7 +29,7 @@ div {
  	background-size: cover;
   	background-position: center;
   	background-repeat: no-repeat;
- 	height: 300px; /* Set a specific height for the container */
+ 	height: 400px; /* Set a specific height for the container */
   	width: 100%; /* Optional: set width as needed */
 
  	display: flex;
@@ -184,7 +184,7 @@ p {
 
 /* for about me */
 #img_about {
-	height: 500px;
+	height: 400px;
 	width: 300px;
 }
 
@@ -298,6 +298,7 @@ p {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
