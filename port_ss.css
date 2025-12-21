@@ -33,9 +33,10 @@ div {
   	width: 100%; /* Optional: set width as needed */
 
  	display: flex;
-  	align-items: center;
+  	/* align-items: center; */
   	justify-content: center;
   	text-align: center;
+	color: white;
   	overflow: hidden;
   	position: relative;
 }
@@ -298,6 +299,7 @@ p {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
