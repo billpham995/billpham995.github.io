@@ -166,13 +166,15 @@ p {
 	width: 150px;
 }
 
+/* for about me */
 #fig_le {
 	float: left;
 }
 
+/* for about me */
 #img_about {
-	height: 200px;
-	width: 100px;
+	height: 400px;
+	width: 200px;
 }
 
 #img_grid {
@@ -285,6 +287,7 @@ p {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
