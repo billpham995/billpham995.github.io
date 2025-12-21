@@ -173,8 +173,8 @@ p {
 
 /* for about me */
 #img_about {
-	height: 400px;
-	width: 200px;
+	height: 500px;
+	width: 300px;
 }
 
 #img_grid {
@@ -287,6 +287,7 @@ p {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
