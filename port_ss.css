@@ -5,14 +5,7 @@ body {
 	background: url("images/background.jpg");
 }
 
-/* Body outer section style */
 
-
-/* Body inner section style */
-/* #div_2 {
-	width: 90%;
-	background-image: url(''); 
-} */
 
 /* Container for introduction of me */
 #intro_con {
@@ -290,6 +283,7 @@ p {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
