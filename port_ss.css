@@ -166,6 +166,15 @@ p {
 	width: 150px;
 }
 
+#fig_le {
+	float: left;
+}
+
+#img_about {
+	height: 200px;
+	width: 100px;
+}
+
 #img_grid {
 	height:250px;
 	width:350px;
@@ -276,6 +285,7 @@ p {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
