@@ -6,7 +6,7 @@ body {
 }
 
 /* Body outer section style */
-div {
+/* div {
 	width: 100%;
 	height: auto;
 	margin: auto;
@@ -15,13 +15,13 @@ div {
 	border-radius: 15px; /* border edges */
 	
 	overflow: auto; /* if content overflows, scroll bar is added to scroll, and stop it and images go over the container border */
-}
+} */
 	
 /* Body inner section style */
-#div_2 {
+/* #div_2 {
 	width: 90%;
 	background-image: url(''); 
-}
+} */
 
 /* Container for introduction of me */
 #intro_con {
@@ -299,6 +299,7 @@ p {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
