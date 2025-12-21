@@ -7,7 +7,7 @@ body {
 
 /* Body outer section style */
 div {
-	width: 100%;
+	width: 95%;
 	height: auto;
 	margin: auto;
 	
@@ -294,6 +294,7 @@ p {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
