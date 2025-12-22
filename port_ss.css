@@ -5,7 +5,7 @@ body {
 	background: url("images/background.jpg");
 }
 
-/* Body outer section style */
+/* Body */
 div {
 	width: 95%;
 	height: auto;
@@ -17,6 +17,15 @@ div {
 	overflow: auto; /* if content overflows, scroll bar is added to scroll, and stop it and images go over the container border */
 }
 
+/* */
+#form_cen {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+  	/* overflow: hidden; */
+  	position: relative;
+}
 
 /* Container for introduction of me */
 #intro_con {
@@ -294,6 +303,7 @@ p {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
