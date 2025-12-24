@@ -133,6 +133,7 @@ nav a.active {
 #img_about {
 	height: 400px;
 	width: 300px;
+	float: left;
 }
 
 /* Back to Top Button */		
@@ -169,6 +170,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
