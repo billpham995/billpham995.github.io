@@ -97,9 +97,9 @@ a:link, a:visited {
 }
 
 /* configuration for image area inside gallery container */
-.gallery-item img {
-	/* width: 100%;*/ /* fit the whole area */
-	/* height: auto; */
+.gallery-item div.img {
+	width: 100%;	/* fit the whole area */
+	height: auto;
 }
 
 /* configuration for image description */
@@ -198,69 +198,69 @@ nav a.active {
 }
 
 #img_mini_icon {
-	height: 30 px;
-	width: 30px;
+	/* height: 30 px;
+	width: 30px; */
 }
 
 #img_mini_icon2 {
-	height: 16 px;
-	width: 16 px;
+	/* height: 16 px;
+	width: 16 px; */
 }
 
 #img_proj {
-	height: 500px;
+	/* height: 500px;
 	width: 900px;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto; */
 }
 
 #img_proj2 {
-	height: 500px;
+	/* height: 500px;
 	width: 1000px;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto; */
 }
 
 #img_proj3 {
-	height: 300px;
+	/* height: 300px;
 	width: 900px;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto; */
 }
 
 #img_proj4 {
-	height: 700px;
+	/* height: 700px;
 	width: 900px;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto; */
 }
 
 #img_proj5 {
-	height: 1100px;
+	/* height: 1100px;
 	width: 700px;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto; */
 }
 
 #img_proj_revert {
-	height: 900px;
+	/* height: 900px;
 	width: 500px;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto; */
 }
 
 #img_proj2_revert {
-	height: 1100px;
+	/* height: 1100px;
 	width: 500px;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto; */
 }
 
 #img_intro {
-	height: 400px;
+	/* height: 400px;
 	width: 600px;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto; */
 }
 
 /* List of links to other webpages */
@@ -306,6 +306,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
