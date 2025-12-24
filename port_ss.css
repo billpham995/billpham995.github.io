@@ -197,7 +197,7 @@ nav a.active {
 	width:350px;
 }
 
-/* #img_mini_icon {
+#img_mini_icon {
 	height: 30 px;
 	width: 30px;
 }
@@ -306,6 +306,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
