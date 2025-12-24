@@ -103,7 +103,7 @@ a:link, a:visited {
 }
 
 /* configuration for image description */
-.gallery-item desc {
+.gallery-item div.desc {
 	padding: 10px;
 	text-align: center;
 }
@@ -306,6 +306,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
