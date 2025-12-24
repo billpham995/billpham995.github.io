@@ -97,13 +97,13 @@ a:link, a:visited {
 }
 
 /* configuration for image area inside gallery container */
-.gallery-item div.img {
+.gallery-item img {
 	width: 100%;	/* fit the whole area */
 	height: auto;
 }
 
 /* configuration for image description */
-.gallery-item div.desc {
+.gallery-item desc {
 	padding: 10px;
 	text-align: center;
 }
@@ -306,6 +306,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
