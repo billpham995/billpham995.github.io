@@ -54,7 +54,7 @@ body {
 	margin: 5px;
 	border: 2px solid #ccc;
 	width: 200px; 
-	height: 380px;
+	height: 410px;
 }
 
 /* when container is hovered by mouse */
@@ -157,6 +157,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
