@@ -7,14 +7,15 @@ body {
 
 /* Body container */
 div {
-	width: 95%;
+	/* width: 95%;
 	height: auto;
-	margin: auto;
+	margin: auto; */
 	
-	border: 0;
-	border-radius: 15px; 	/* border edges */
-	
-	overflow: auto; 		/* if content overflows, scroll bar is added to scroll, and stop it and images go over the container border */
+	/* border: 0; */
+	/* border edges */
+	/* border-radius: 15px; */
+	/* if content overflows, scroll bar is added to scroll, and stop it and images go over the container border */
+	/* overflow: auto; 		 */
 }
 
 /* Container for introduction banner */
@@ -306,6 +307,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
