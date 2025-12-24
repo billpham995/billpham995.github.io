@@ -6,7 +6,7 @@ body {
 }
 
 /* Body container */
-.div.body {
+.body_con {
 	width: 95%;
 	height: auto;
 	margin: auto;
@@ -169,6 +169,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
