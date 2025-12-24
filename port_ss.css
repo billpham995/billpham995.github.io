@@ -88,7 +88,7 @@ a:link, a:visited {
 .gallery-item {
 	margin: 5px;
 	border: 2px solid #ccc;
-	width: 180px; /* define how big the container is to be displayed */
+	width: 280px; /* define how big the container is to be displayed */
 }
 
 /* when container is hovered by mouse */
@@ -98,13 +98,13 @@ a:link, a:visited {
 
 /* configuration for image area inside gallery container */
 .gallery-item img {
-	width: 100%; /* fit the whole area */
+	/* width: 100%;*/ /* fit the whole area */
 	height: auto;
 }
 
 /* configuration for image description */
 .gallery-item div.desc {
-	padding: 15px;
+	padding: 10px;
 	text-align: center;
 }
 
@@ -306,6 +306,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
