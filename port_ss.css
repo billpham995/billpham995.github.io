@@ -7,15 +7,15 @@ body {
 
 /* Body container */
 div {
-	/* width: 95%;
-	height: auto; */
-	/* margin: auto; */
+	width: 95%;
+	height: auto;
+	margin: auto;
 	
-	/* border: 0; */
+	border: 0;
 	/* border edges */
-	/* border-radius: 15px; */
+	border-radius: 15px;
 	/* if content overflows, scroll bar is added to scroll, and stop it and images go over the container border */
-	overflow: auto; 		
+	/* overflow: auto; 		 */
 }
 
 /* Container for introduction banner */
@@ -90,7 +90,7 @@ a:link, a:visited {
 	margin: 5px;
 	border: 2px solid #ccc;
 	width: 280px; 
-	height: 300px;
+	height: 320px;
 }
 
 /* when container is hovered by mouse */
@@ -308,6 +308,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
