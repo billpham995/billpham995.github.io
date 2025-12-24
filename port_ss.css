@@ -24,7 +24,7 @@ body {
  	background-size: cover;
   	background-position: center;
   	background-repeat: no-repeat;
- 	height: 400px; /* Set a specific height for the container */
+ 	height: 450px; /* Set a specific height for the container */
   	width: 100%; /* Optional: set width as needed */
 
  	display: flex;
@@ -171,6 +171,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
