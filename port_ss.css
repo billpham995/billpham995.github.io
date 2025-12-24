@@ -1,5 +1,10 @@
 /* CSS stylesheet for my portfolio */
 
+/* Smooth Scroll */
+html {
+	scroll-behaviour: smooth;
+}
+
 /* Background of website */
 body {	
 	background: url("images/background.jpg");
@@ -145,12 +150,19 @@ nav a.active {
 	position:fixed;
 	top: 50%;
 	right: 10px;
+	transition: opacity 0.3s;
 }
+
 .backtopbutton button {
 	font-size: 20px;
 	padding: 5px 10px;
 	background-color:orange;
 	font-weight:bold;
+}
+
+:target ~ .backtopbutton {
+	opacity: 1;
+	pointer-events: auto;
 }
 
 /* Embed configuration to center of the screen */
@@ -171,6 +183,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
