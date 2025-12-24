@@ -150,7 +150,6 @@ nav a.active {
 	position:fixed;
 	top: 50%;
 	right: 10px;
-	transition: opacity 0.3s;
 }
 
 .backtopbutton button {
@@ -158,11 +157,6 @@ nav a.active {
 	padding: 5px 10px;
 	background-color:orange;
 	font-weight:bold;
-}
-
-:target ~ .backtopbutton {
-	opacity: 1;
-	pointer-events: auto;
 }
 
 /* Embed configuration to center of the screen */
@@ -183,6 +177,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
