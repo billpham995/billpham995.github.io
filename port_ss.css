@@ -7,9 +7,9 @@ body {
 
 /* Body container */
 .body_con {
-	width: 95%;
+	/* width: 95%;
 	height: auto;
-	margin: auto;
+	margin: auto; */
 	
 	/* border: 0; */
 	/* border edges */
@@ -19,7 +19,7 @@ body {
 }
 
 /* Container for introduction banner */
-#intro_con {
+#intro_banner {
   	background-image: url("images/forHome/meHD.png");
  	background-size: cover;
   	background-position: center;
@@ -69,7 +69,7 @@ a:link, a:visited {
 	margin: 5px;
 	border: 2px solid #ccc;
 	width: 200px; 
-	/* height: 320px; */
+	height: 320px;
 }
 
 /* when container is hovered by mouse */
@@ -169,6 +169,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
