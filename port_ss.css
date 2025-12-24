@@ -74,7 +74,7 @@ a:link, a:visited {
 	margin: 5px;
 	border: 2px solid #ccc;
 	width: 200px; 
-	height: 320px;
+	height: 330px;
 }
 
 /* when container is hovered by mouse */
@@ -183,6 +183,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
