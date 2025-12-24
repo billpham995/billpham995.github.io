@@ -64,7 +64,7 @@ div {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 20px; /* space between containers */
+  gap: 10px; /* space between containers */
   background-color: ;
   padding: 0px;
 }
@@ -297,6 +297,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
