@@ -9,13 +9,13 @@ body {
 div {
 	/* width: 95%;
 	height: auto; */
-	margin: auto;
+	/* margin: auto; */
 	
 	/* border: 0; */
 	/* border edges */
 	/* border-radius: 15px; */
 	/* if content overflows, scroll bar is added to scroll, and stop it and images go over the container border */
-	/* overflow: auto; 		 */
+	overflow: auto; 		
 }
 
 /* Container for introduction banner */
@@ -89,7 +89,8 @@ a:link, a:visited {
 .gallery-item {
 	margin: 5px;
 	border: 2px solid #ccc;
-	width: 280px; /* define how big the container is to be displayed */
+	width: 280px; 
+	height: 300px;
 }
 
 /* when container is hovered by mouse */
@@ -307,6 +308,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
