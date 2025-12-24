@@ -85,7 +85,7 @@ a:link, a:visited {
 /* configuration for image area inside gallery container */
 .gallery-item img {
 	width: 100%;	/* fit the whole area */
-	height: 40%;
+	height: 50%;
 }
 
 /* configuration for image description */
@@ -183,6 +183,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
