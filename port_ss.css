@@ -41,26 +41,6 @@ body {
   	position: relative;
 }
 
-/* Grid Container to list my skills */
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 10px; /* space between containers */
-  background-color: ;
-  padding: 0px;
-}
-.grid-container > div {
-  background-color: #f1f1f1;
-  color: #000;
-  text-align: center;
-}
-
-/* Link & visited page */
-a:link, a:visited {
-	text-decoration: none;
-	color: ;
-}
-
 /* Gallery */
 /* gallery body */
 .gallery {
@@ -74,7 +54,7 @@ a:link, a:visited {
 	margin: 5px;
 	border: 2px solid #ccc;
 	width: 200px; 
-	height: 340px;
+	height: 360px;
 }
 
 /* when container is hovered by mouse */
@@ -177,6 +157,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
