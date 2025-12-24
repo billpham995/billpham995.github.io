@@ -187,10 +187,10 @@ nav a.active {
 }
 
 /* for about me */
-/* #img_about {
+#img_about {
 	height: 400px;
 	width: 300px;
-} */
+}
 
 #img_grid {
 	height:250px;
@@ -306,6 +306,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
