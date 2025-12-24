@@ -89,7 +89,7 @@ a:link, a:visited {
 .gallery-item {
 	margin: 5px;
 	border: 2px solid #ccc;
-	width: 180px; 
+	width: 200px; 
 	height: 320px;
 }
 
@@ -309,6 +309,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
