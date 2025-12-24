@@ -8,8 +8,8 @@ body {
 /* Body container */
 div {
 	/* width: 95%;
-	height: auto;
-	margin: auto; */
+	height: auto; */
+	margin: auto;
 	
 	/* border: 0; */
 	/* border edges */
@@ -307,6 +307,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
