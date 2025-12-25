@@ -41,7 +41,62 @@ body {
   	position: relative;
 }
 
-/* Gallery */
+/* Skills List */
+/* Skills List body */
+.skill-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+/* gallery individual container */
+.skill-list-item {
+	margin: 5px;
+	border: 2px solid #ccc;
+	width: 200px; 
+	height: 400px;
+}
+
+/* when container is hovered by mouse */
+/* .skill-list-item:hover {
+	border: 3px solid #777;
+} */
+
+/* configuration for image area inside gallery container */
+.skill-list-item img {
+	width: 100%;	/* fit the whole area */
+	height: 50%;
+}
+
+/* configuration for image description */
+.skill-list-item div.desc {
+	padding: 10px;
+	position: relative;
+	text-align: center;
+}
+
+
+/* flex box that displays image on the left and text on the right */
+.flexBoxL {
+	display: flex;
+	/* align vertically for the content within container  */
+	align-items: center;
+	/* space between image and text */
+	gap: 15px;
+}
+
+.flexBoxL img {
+	/* height: 400px;
+	width: 300px; */
+}
+
+.flexBoxL div.text {
+	/* text takes the remaining available space */
+	flex: 1;
+}
+
+
+/*  */
 /* gallery body */
 .gallery {
 	display: flex;
@@ -73,26 +128,6 @@ body {
 	padding: 10px;
 	position: relative;
 	text-align: center;
-}
-
-
-/* flex box that displays image on the left and text on the right */
-.flexBoxL {
-	display: flex;
-	/* align vertically for the content within container  */
-	align-items: center;
-	/* space between image and text */
-	gap: 15px;
-}
-
-.flexBoxL img {
-	/* height: 400px;
-	width: 300px; */
-}
-
-.flexBoxL div.text {
-	/* text takes the remaining available space */
-	flex: 1;
 }
 
 
@@ -178,6 +213,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
