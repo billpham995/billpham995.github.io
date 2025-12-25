@@ -109,7 +109,7 @@ body {
 	align-items: center; /* display the text at the centre of vertical position */
 	margin: 5px;
 	/* border: 2px solid #ccc; */
-	width: 500px;
+	width: 1000px;
 }
 
 /* when container is hovered by mouse */
@@ -127,7 +127,7 @@ body {
 .horizontalG-item div.desc {
 	padding: 10px;
 	position: relative;
-	text-align: center;
+	text-align: left;
 }
 
 
@@ -247,6 +247,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
