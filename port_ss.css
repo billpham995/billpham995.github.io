@@ -100,8 +100,8 @@ body {
 /* Float left for image with long paragraph of description */
 #imgLeft {
   float: left;
-  width: 200px;
-  height: 200px; 
+  /* width: 200px;
+  height: 200px;  */
   margin-right: 20px; /* distance the text away from the image by 20 pixel */
 }
 
@@ -226,6 +226,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
