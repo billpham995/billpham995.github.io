@@ -1,13 +1,5 @@
 /* CSS stylesheet for my portfolio */
 
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-
-
 /* Smooth Scroll */
 html {
 	scroll-behaviour: smooth;
@@ -220,6 +212,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
