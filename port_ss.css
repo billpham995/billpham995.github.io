@@ -109,7 +109,6 @@ body {
 	margin: 5px;
 	border: 2px solid #ccc;
 	width: 400px; 
-	height: 200px;
 }
 
 /* when container is hovered by mouse */
@@ -119,8 +118,8 @@ body {
 
 /* configuration for image area inside gallery container */
 .imgGallery-item img {
-	width: 50%;	/* fit the whole area */
-	height: 100%;
+	width: 100%;	/* fit the whole area */
+	height: 60%;
 }
 
 /* configuration for image description */
@@ -213,6 +212,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
