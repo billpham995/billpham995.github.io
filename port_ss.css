@@ -108,8 +108,8 @@ body {
 .imgGallery-item {
 	margin: 5px;
 	border: 2px solid #ccc;
-	width: 200px; 
-	height: 400px;
+	width: 400px; 
+	height: 200px;
 }
 
 /* when container is hovered by mouse */
@@ -213,6 +213,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
