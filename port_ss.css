@@ -41,7 +41,7 @@ body {
   	position: relative;
 }
 
-/* Skills List */
+/* Skills List with image */
 /* Skills List body */
 .skill-list {
 	display: flex;
@@ -96,16 +96,16 @@ body {
 }
 
 
-/*  */
+/* Image Gallery with description */
 /* gallery body */
-.gallery {
+.imgGallery {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }
 
 /* gallery individual container */
-.gallery-item {
+.imgGallery-item {
 	margin: 5px;
 	border: 2px solid #ccc;
 	width: 200px; 
@@ -113,18 +113,18 @@ body {
 }
 
 /* when container is hovered by mouse */
-/* .gallery-item:hover {
+.imgGallery-item:hover {
 	border: 3px solid #777;
-} */
+}
 
 /* configuration for image area inside gallery container */
-.gallery-item img {
+.imgGallery-item img {
 	width: 100%;	/* fit the whole area */
 	height: 50%;
 }
 
 /* configuration for image description */
-.gallery-item div.desc {
+.imgGallery-item div.desc {
 	padding: 10px;
 	position: relative;
 	text-align: center;
@@ -213,6 +213,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
