@@ -85,12 +85,12 @@ body {
 	gap: 15px;
 }
 
-.flexBoxL div.img1 {
+.flexBoxL img1 {
 	height: 400px;
 	width: 300px;
 }
 
-.flexBoxL div.img2 {
+.flexBoxL img2 {
 	height: 300px;
 	width: 400px;
 }
@@ -182,6 +182,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
