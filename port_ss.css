@@ -109,12 +109,12 @@ body {
 	align-items: center; /* display the text at the centre of vertical position */
 	margin: 5px;
 	/* border: 2px solid #ccc; */
-	width: 1000px;
+	width: 1500px;
 }
 
 /* when container is hovered by mouse */
 .horizontalG-item:hover {
-	border: 3px solid #777;
+	/* border: 3px solid #777; */
 }
 
 /* configuration for image area inside gallery container */
@@ -247,6 +247,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
