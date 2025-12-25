@@ -1,10 +1,5 @@
 /* CSS stylesheet for my portfolio */
 
-@media (max-width: 768px) {
-  .container img {
-    width: 120px;
-  }
-}
 
 /* Smooth Scroll */
 html {
@@ -100,6 +95,9 @@ body {
 	/* text takes the remaining available space */
 	flex: 1;
 }
+
+
+/* Float left image container  */
 
 
 /* Image Gallery with description */
@@ -218,6 +216,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
