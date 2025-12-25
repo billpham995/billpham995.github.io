@@ -97,37 +97,16 @@ body {
 }
 
 
-/* Horizontal Gallery with description for major content  */
-.horizontalG {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
+/* Float left for image with long paragraph of description */
+#imgLeft {
+  float: left;
+  width: 200px;
+  height: 200px; 
+  margin-right: 20px; /* distance the text away from the image by 20 pixel */
 }
 
-.horizontalG-item {
-	display: flex; /* display description horizontally */
-	align-items: center; /* display the text at the centre of vertical position */
-	margin: 5px;
-	/* border: 2px solid #ccc; */
-	width: 1500px;
-}
-
-/* when container is hovered by mouse */
-.horizontalG-item:hover {
-	/* border: 3px solid #777; */
-}
-
-/* configuration for image area inside gallery container */
-.horizontalG-item img {
-	width: 100%;	/* fit the whole area */
-	height: auto;
-}
-
-/* configuration for image description */
-.horizontalG-item div.desc {
-	padding: 10px;
-	position: relative;
-	text-align: left;
+#p_imgLeft {
+  overflow: hidden; /* text do not stick under the picture */
 }
 
 
@@ -247,6 +226,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
