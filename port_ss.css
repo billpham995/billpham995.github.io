@@ -86,7 +86,7 @@ body {
   div.skill-list-item {
     width: calc(100% - 20px);
   }
-
+}
 
 /* flex box that displays image on the left and text on the right */
 .flexBoxL {
@@ -242,6 +242,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
