@@ -102,7 +102,7 @@ body {
 	width: 90%
 }
 
-.imgDesc.img {
+.imgDesc img {
   float: left;
   width: 230px;
   height: 300px; 
@@ -241,6 +241,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
