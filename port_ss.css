@@ -80,18 +80,10 @@ body {
   div.skill-list-item {
     width: calc(50% - 20px);
   }
-
-  div.imgGallery-item {
-    width: calc(50% - 20px);
-  }
 }
 
 @media only screen and (max-width: 480px) {
   div.skill-list-item {
-    width: calc(100% - 20px);
-  }
-
-  div.imgGallery-item {
     width: calc(100% - 20px);
   }
 }
@@ -136,6 +128,7 @@ body {
 	margin: 5px;
 	border: 2px solid #ccc;
 	width: 300px; 
+	height: 400px;
 }
 
 /* when container is hovered by mouse */
@@ -146,7 +139,7 @@ body {
 /* configuration for image area inside gallery container */
 .imgGallery-item img {
 	width: 100%;	/* fit the whole area */
-	height: 60%;
+	height: 70%;
 }
 
 /* configuration for image description */
@@ -156,17 +149,17 @@ body {
 	text-align: center;
 }
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   div.imgGallery-item {
     width: calc(50% - 20px);
   }
-} */
+}
 
-/* @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   div.imgGallery-item {
     width: calc(100% - 20px);
   }
-} */
+}
 
 
 /* Navigation bar */
@@ -251,6 +244,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
