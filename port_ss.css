@@ -100,7 +100,7 @@ body {
 #imgLeft2 {
   float: left;
   width: 300px;
-  height: 230px; 
+  height: 200px; 
   margin-right: 20px; /* distance the text away from the image by 20 pixel */
 }
 
@@ -127,7 +127,7 @@ body {
 .imgGallery-item {
 	margin: 5px;
 	border: 2px solid #ccc;
-	width: 400px; 
+	width: 300px; 
 }
 
 /* when container is hovered by mouse */
@@ -243,6 +243,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
