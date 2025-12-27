@@ -135,7 +135,7 @@ body {
 .imgGallery-item {
 	margin: 5px;
 	border: 2px solid #ccc;
-	width: 200px; 
+	width: 300px; 
 }
 
 /* when container is hovered by mouse */
@@ -146,7 +146,7 @@ body {
 /* configuration for image area inside gallery container */
 .imgGallery-item img {
 	width: 100%;	/* fit the whole area */
-	height: auto;
+	height: 60%;
 }
 
 /* configuration for image description */
@@ -251,6 +251,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
