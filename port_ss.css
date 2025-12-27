@@ -120,6 +120,10 @@ body {
   overflow: hidden; /* text do not stick under the picture */
 }
 
+.clearWarp {
+	clear: both;
+}
+
 
 /* Image Gallery with description */
 /* gallery body */
@@ -237,6 +241,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
