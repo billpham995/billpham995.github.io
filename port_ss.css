@@ -111,6 +111,7 @@ body {
 
 .clearWarp {
 	clear: both;
+	display: block;
 }
 
 /* Image Gallery with description */
@@ -229,6 +230,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
