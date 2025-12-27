@@ -109,6 +109,10 @@ body {
 
 
 /* Float left for image with long paragraph of description */
+.imgConL {
+	width: 90%;
+}
+	
 #imgLeft1 {
   float: left;
   width: 230px;
@@ -241,6 +245,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
