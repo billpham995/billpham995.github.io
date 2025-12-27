@@ -88,25 +88,6 @@ body {
   }
 }
 
-/* flex box that displays image on the left and text on the right */
-.flexBoxL {
-	display: flex;
-	/* align vertically for the content within container  */
-	align-items: center;
-	/* space between image and text */
-	gap: 15px;
-}
-
-.flexBoxL img {
-	/* height: 400px;
-	width: 300px; */
-}
-
-.flexBoxL div.text {
-	/* text takes the remaining available space */
-	flex: 1;
-}
-
 
 /* Float left for image with long paragraph of description */	
 #imgLeft1 {
@@ -125,6 +106,7 @@ body {
 	clear: both;
 	display: block;
 }
+
 
 /* Image Gallery with description */
 /* gallery body */
@@ -157,6 +139,18 @@ body {
 	padding: 10px;
 	position: relative;
 	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  div.imgGallery-item {
+    width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  div.imgGallery-item {
+    width: calc(100% - 20px);
+  }
 }
 
 
@@ -242,6 +236,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
