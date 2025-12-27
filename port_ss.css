@@ -108,11 +108,7 @@ body {
 }
 
 
-/* Float left for image with long paragraph of description */
-.imgConL {
-	width: 90%;
-}
-	
+/* Float left for image with long paragraph of description */	
 #imgLeft1 {
   float: left;
   width: 230px;
@@ -124,6 +120,7 @@ body {
   overflow: hidden; /* text do not stick under the picture */
 }
 
+/* An empty container to make the next session paragraph does not warp around the image */
 .clearWarp {
 	clear: both;
 	display: block;
@@ -245,6 +242,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
