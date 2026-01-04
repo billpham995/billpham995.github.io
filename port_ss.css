@@ -259,6 +259,7 @@ iframe {
     display: block; /* Required for margin: auto to work */
     margin: 0 auto;   /* Centers horizontally */
 	max-width: 100%;
+	max-height: auto;
 	border: none;
 }
 
@@ -274,6 +275,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
