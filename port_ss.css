@@ -159,11 +159,12 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	margin: 5px auto;
 }
 
 /* gallery individual container */
 .imgGallery-item {
-	margin: 5px auto;
+	margin: 5px;
 	border: 2px solid #ccc;
 	width: 300px; 
 	/* height: 400px; */
@@ -277,6 +278,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
