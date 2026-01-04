@@ -13,7 +13,7 @@ body {
 
 /* Define Font for content of website */
 h1, h2, h3, h4, p {
-	font-family: Sans Serif;
+	font-family: Verdana, sans-serif;
 ]
 
 /* Body container */
@@ -274,6 +274,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
