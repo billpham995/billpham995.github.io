@@ -257,7 +257,9 @@ nav a.active {
 /* Embed configuration to center of the screen */
 iframe {
     display: block; /* Required for margin: auto to work */
-    margin: auto;   /* Centers horizontally */
+    margin: 0 auto;   /* Centers horizontally */
+	max-width: 100%;
+	border: none;
 }
 
 /* Signature */
@@ -272,6 +274,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
