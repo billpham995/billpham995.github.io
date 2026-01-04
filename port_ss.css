@@ -16,6 +16,10 @@ body {
 	width: 90%;
 	height: auto;
 	margin: auto;
+
+	display: flex;
+	align-items: center;
+	gap: 20px;
 	
 	/* border: 0; */
 	/* border edges */
@@ -23,6 +27,33 @@ body {
 	/* if content overflows, scroll bar is added to scroll, and stop it and images go over the container border */
 	/* overflow: auto; 		 */
 }
+
+@media only screen and (max-width: 768px) {
+
+  .body_con {
+	flex-direction: column;   /* stack items */
+	text-align: center;
+  }
+	
+  div.skill-list-item, div.imgGallery-item {
+    width: calc(50% - 20px);
+  }
+	
+}
+
+@media only screen and (max-width: 480px) {
+
+  .body_con {
+	flex-direction: column;   /* stack items */
+	text-align: center;
+  }
+	
+  div.skill-list-item, div.imgGallery-item {
+    width: calc(100% - 20px);
+  }
+	
+}
+
 
 /* Container for introduction banner */
 #intro_banner {
@@ -52,7 +83,7 @@ body {
 
 /* Skills List individual container */
 .skill-list-item {
-	margin: 5px auto;
+	margin: 5px;
 	border: 2px solid #ccc;
 	width: 200px; 
 	height: 400px;
@@ -76,26 +107,26 @@ body {
 	text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   div.skill-list-item {
     width: calc(50% - 20px);
   }
-}
+} */
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
   div.skill-list-item {
     width: calc(100% - 20px);
   }
-}
+} */
 
 
 /* Float left for image with long paragraph of description */	
-.con-session {
+/* .con-session {
 	margin: 5px auto;
-	/* border: 2px solid #ccc; */
+	border: 2px solid #ccc;
 	width: 90%; 
-	/* height: 400px; */
-}
+	height: 400px;
+} */
 
 #imgLeft1 {
   float: left;
@@ -157,17 +188,17 @@ body {
 	text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   div.imgGallery-item {
     width: calc(50% - 20px);
   }
-}
+} */
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
   div.imgGallery-item {
     width: calc(100% - 20px);
   }
-}
+} */
 
 
 /* Navigation bar */
@@ -246,6 +277,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
