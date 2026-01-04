@@ -81,7 +81,7 @@ h1, h2, h3, h4, p {
 	margin: 5px;
 	border: 2px solid #ccc;
 	width: 200px; 
-	height: 500px;
+	height: 550px;
 }
 
 /* when container is hovered by mouse */
@@ -275,6 +275,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
