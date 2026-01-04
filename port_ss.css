@@ -30,11 +30,6 @@ body {
 
 @media only screen and (max-width: 768px) {
 
-  .body_con {
-	flex-direction: column;   /* stack items */
-	text-align: center;
-  }
-	
   div.skill-list-item, div.imgGallery-item {
     width: calc(50% - 20px);
   }
@@ -42,11 +37,6 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-
-  .body_con {
-	flex-direction: column;   /* stack items */
-	text-align: center;
-  }
 	
   div.skill-list-item, div.imgGallery-item {
     width: calc(100% - 20px);
@@ -278,6 +268,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
