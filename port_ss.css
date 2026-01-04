@@ -18,7 +18,7 @@ h1, h2, h3, h4, p {
 
 /* Body container */
 .body_con {
-	width: 90%;
+	width: 80%;
 	height: auto;
 	margin: auto;
 
@@ -81,7 +81,7 @@ h1, h2, h3, h4, p {
 	margin: 5px;
 	border: 2px solid #ccc;
 	width: 200px; 
-	height: 400px;
+	height: 500px;
 }
 
 /* when container is hovered by mouse */
@@ -116,11 +116,11 @@ h1, h2, h3, h4, p {
 
 
 /* Float left for image with long paragraph of description */	
-.con-session {
+/* .con-session {
 	margin: 5px auto;
 	width: 90%; 
 	background-color:lightgray;
-}
+} */
 
 #imgLeft1 {
   float: left;
@@ -272,6 +272,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
