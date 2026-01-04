@@ -17,9 +17,9 @@ body {
 	height: auto;
 	margin: auto;
 
-	display: flex;
+	/* display: flex;
 	align-items: center;
-	gap: 20px;
+	gap: 20px; */
 	
 	/* border: 0; */
 	/* border edges */
@@ -278,6 +278,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
