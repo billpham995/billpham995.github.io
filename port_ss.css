@@ -90,8 +90,8 @@ body {
 
 
 /* Float left for image with long paragraph of description */	
-.body-content {
-	margin: 5px;
+.con-session {
+	margin: 5px auto;
 	/* border: 2px solid #ccc; */
 	width: 95%; 
 	/* height: 400px; */
@@ -246,6 +246,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
