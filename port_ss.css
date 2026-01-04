@@ -11,9 +11,14 @@ body {
 	background: url("images/background.jpg");
 }
 
+/* Define Font for content of website */
+h1, h2, h3, h4, p {
+	font-family: Sans Serif;
+]
+
 /* Body container */
 .body_con {
-	width: 85%;
+	width: 80%;
 	height: auto;
 	margin: auto;
 
@@ -28,6 +33,7 @@ body {
 	/* overflow: auto; 		 */
 }
 
+/* Fit content display on smaller screens */
 @media only screen and (max-width: 768px) {
 
   div.skill-list-item, div.imgGallery-item {
@@ -268,6 +274,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
