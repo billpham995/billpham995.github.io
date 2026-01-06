@@ -122,6 +122,10 @@ h1, h2, h3, h4, p {
 	background-color: E8E8E8;
 }
 
+.body-inner div.text {
+  overflow: hidden; /* text do not stick under the picture */
+}
+
 #imgLeft1 {
   float: left;
   width: 230px;
@@ -134,10 +138,6 @@ h1, h2, h3, h4, p {
   width: 300px;
   height: 200px; 
   margin-right: 30px; /* distance the text away from the image by 20 pixel */
-}
-
-#p_imgLeft {
-  overflow: hidden; /* text do not stick under the picture */
 }
 
 /* An empty container to make the next session paragraph does not warp around the image */
@@ -277,6 +277,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
