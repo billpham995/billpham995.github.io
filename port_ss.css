@@ -256,8 +256,10 @@ nav a.active {
 
 /* Embed configuration to center of the screen */
 iframe {
-    display: block; /* Required for margin: auto to work */
-    margin: 0 auto;   /* Centers horizontally */
+    /* Required for margin: auto to work */
+	display: block; 
+    /* Centers horizontally */
+	margin: 0 auto;
 	max-width: 100%;
 	max-height: auto;
 	border: none;
@@ -275,6 +277,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
