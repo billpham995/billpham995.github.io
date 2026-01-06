@@ -193,7 +193,7 @@ a:hover {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	/* margin: 5px auto; */
-	background-color: lightgray;
+	/* background-color: lightgray; */
 }
 
 /* gallery individual container */
@@ -264,6 +264,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
