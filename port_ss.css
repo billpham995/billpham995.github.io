@@ -91,10 +91,11 @@ nav a.active {
 /* Link and visited */
 a:link {
 	color: green;
+	text-decoration: none;
 }
 
 a:visited {
-	color: blue;
+	color: 551A8B;
 }
 
 a:hover {
@@ -263,6 +264,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
