@@ -105,7 +105,7 @@ a:link {
 a:visited {
 	/* 551A8B is standard color for visited link */
 	/* color: 551A8B; */
-	color: #E6E6FA;
+	color: #EE82EE;
 }
 
 a:hover {
@@ -166,7 +166,7 @@ a:hover {
 	position: relative;
 	text-align: center;
 	color: black;
-	background-color: #F0F0F0;
+	/* background-color: #F0F0F0; */
 	/* background-color: lightgray; */
 }
 
@@ -295,6 +295,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
