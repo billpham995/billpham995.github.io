@@ -9,6 +9,7 @@ html {
 /* Background of website */
 body {	
 	background: url("images/background.jpg");
+	color: white;
 }
 
 /* Define Font for content of website */
@@ -277,6 +278,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
