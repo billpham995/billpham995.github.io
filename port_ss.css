@@ -171,6 +171,7 @@ a:hover {
 	padding: 10px;
 	position: relative;
 	text-align: center;
+	color: black;
 }
 
 /* Image Gallery with description */
@@ -299,6 +300,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
