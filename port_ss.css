@@ -47,6 +47,13 @@ h1, h2, h3, h4, p {
   div.skill-list-item, div.imgGallery-item {
     width: calc(100% - 20px);
   }
+
+  #imgLeft1 {
+	float: none;
+	display: block ;
+	margin: 0 auto 15px;
+	max-width: 100%;
+  }
 }
 
 /* Navigation bar */
@@ -125,20 +132,19 @@ a:hover {
 
 /* Skills List with image */
 /* Skills List body */
-div.skill-list {
+.skill-list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }
 
 /* Skills List individual container */
-div.skill-list-item {
+.skill-list-item {
 	margin: 5px;
 	border: 2px solid #ccc;
 	width: 200px; 
-	/* max-height: 450px; */
-	max-height: auto;
-	background-color: F0F0F0;
+	max-height: 450px;
+	/* max-height: auto; */
 }
 
 /* when container is hovered by mouse */
@@ -147,18 +153,19 @@ div.skill-list-item {
 } */
 
 /* configuration for image area inside gallery container */
-div.skill-list-item img {
+.skill-list-item img {
 	width: 100%;	/* fit the whole area */
 	height: 40%;
 	/* background-color: white; */
 }
 
 /* configuration for image description */
-div.skill-list-item div.desc {
+.skill-list-item div.desc {
 	padding: 10px;
 	position: relative;
 	text-align: center;
 	color: black;
+	background-color: F0F0F0;
 	/* background-color: lightgray; */
 }
 
@@ -230,12 +237,12 @@ div.skill-list-item div.desc {
 
 /* On smaller screen: */
 @media (max-width: 480px) {
-	#imgLeft1 {
+	/* #imgLeft1 {
 		float: none;
 		display: block ;
 		margin: 0 auto 15px;
 		max-width: 100%;
-	}
+	} */
 }
 
 /* An empty container to make the next session paragraph does not warp around the image */
@@ -286,6 +293,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
