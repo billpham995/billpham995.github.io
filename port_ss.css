@@ -154,38 +154,6 @@ a:hover {
 	text-align: center;
 }
 
-/* Float left for image with long paragraph of description */	
-.body-inner {
-	margin: 5px auto;
-	width: 85%; 
-	background-color: E8E8E8;
-}
-
-.body-inner div.text {
-  overflow: hidden; /* text do not stick under the picture */
-}
-
-#imgLeft1 {
-  float: left;
-  width: 230px;
-  height: 300px; 
-  margin-right: 30px; /* distance the text away from the image by 20 pixel */
-}
-
-#imgLeft2 {
-  float: left;
-  width: 300px;
-  height: 200px; 
-  margin-right: 30px; /* distance the text away from the image by 20 pixel */
-}
-
-/* An empty container to make the next session paragraph does not warp around the image */
-.clearWarp {
-	clear: both;
-	display: block;
-}
-
-
 /* Image Gallery with description */
 /* gallery body */
 .imgGallery {
@@ -221,6 +189,51 @@ a:hover {
 	padding: 10px;
 	position: relative;
 	text-align: center;
+}
+
+/* Container for inner body content  */	
+.body-inner {
+	margin: 5px auto;
+	width: 85%; 
+	background-color: E8E8E8;
+}
+
+.body-inner div.text {
+  overflow: hidden; /* text do not stick under the picture */
+}
+
+/* Float left options for image with long paragraph of description */
+/* Vertical image */
+#imgLeft1 {
+  float: left;
+  max-width: 230px;
+  max-height: 300px; 
+  /* distance the text away from the image by 20 pixel */
+  /* margin-right: 30px;  */
+  margin: 0 15px 10px 0;
+}
+/* Horizontal image */
+#imgLeft2 {
+  float: left;
+  width: 300px;
+  height: 200px; 
+  margin-right: 30px; /* distance the text away from the image by 20 pixel */
+}
+
+/* On smaller screen: */
+@media (max-width: 480px) {
+	#imgLeft1 {
+		float: none;
+		display: block ;
+		margin: 0 auto 15px;
+		max-width: 100%;
+	}
+}
+
+/* An empty container to make the next session paragraph does not warp around the image */
+.clearWarp {
+	clear: both;
+	display: block;
 }
 
 /* Back to Top Button */		
@@ -264,6 +277,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
