@@ -129,7 +129,6 @@ a:hover {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	background-color: F0F0F0;
 }
 
 /* Skills List individual container */
@@ -137,8 +136,9 @@ a:hover {
 	margin: 5px;
 	border: 2px solid #ccc;
 	width: 200px; 
-	max-height: 450px;
-	height: auto;
+	/* max-height: 450px; */
+	max-height: auto;
+	background-color: F0F0F0;
 }
 
 /* when container is hovered by mouse */
@@ -159,7 +159,7 @@ a:hover {
 	position: relative;
 	text-align: center;
 	color: black;
-	background-color: lightgray;
+	/* background-color: lightgray; */
 }
 
 /* Image Gallery with description */
@@ -169,7 +169,6 @@ a:hover {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	/* margin: 5px auto; */
-	background-color: F0F0F0;
 }
 
 /* gallery individual container */
@@ -178,6 +177,7 @@ a:hover {
 	border: 1px solid #ccc;
 	width: 300px; 
 	/* height: 400px; */
+	background-color: F0F0F0;
 }
 
 /* when container is hovered by mouse */
@@ -286,6 +286,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
