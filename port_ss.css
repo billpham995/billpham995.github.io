@@ -211,7 +211,7 @@ a:hover {
 .body-inner {
 	margin: 5px auto;
 	width: 85%; 
-	background-color: E8E8E8;
+	background-color: #E8E8E8;
 }
 
 .body-inner div.text {
@@ -294,6 +294,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
