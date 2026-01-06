@@ -47,20 +47,6 @@ h1, h2, h3, h4, p {
   div.skill-list-item, div.imgGallery-item {
     width: calc(100% - 20px);
   }
-
-  #imgLeft1 {
-	float: none;
-	display: block ;
-	margin: 0 auto 15px;
-	max-width: 100%;
-  }
-
-  #imgLeft2 {
-	float: none;
-	display: block ;
-	margin: 0 auto 15px;
-	max-width: 100%;
-  }
 }
 
 /* Navigation bar */
@@ -152,7 +138,7 @@ a:hover {
 	width: 200px; 
 	max-height: 450px;
 	/* max-height: auto; */
-	background-color: #F0F0F0;
+	background-color: #556b2f;
 }
 
 /* when container is hovered by mouse */
@@ -171,7 +157,6 @@ a:hover {
 	padding: 10px;
 	position: relative;
 	text-align: center;
-	color: black;
 }
 
 /* Image Gallery with description */
@@ -189,7 +174,7 @@ a:hover {
 	border: 1px solid #ccc;
 	width: 300px; 
 	/* height: 400px; */
-	background-color: #F0F0F0;
+	background-color: #556b2f ;
 }
 
 /* when container is hovered by mouse */
@@ -209,7 +194,6 @@ a:hover {
 	padding: 10px;
 	position: relative;
 	text-align: center;
-	color: black;
 }
 
 /* Container for inner body content  */	
@@ -242,14 +226,14 @@ a:hover {
   margin: 0 30px 10px 0;
 }
 
-/* On smaller screen: */
+/* On smaller screen. This does not work if combined with the above */
 @media (max-width: 480px) {
-	/* #imgLeft1 {
+	#imgLeft1, #imgLeft2 {
 		float: none;
 		display: block ;
 		margin: 0 auto 15px;
 		max-width: 100%;
-	} */
+	}
 }
 
 /* An empty container to make the next session paragraph does not warp around the image */
@@ -300,6 +284,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
