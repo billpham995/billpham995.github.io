@@ -9,12 +9,12 @@ html {
 /* Background of website */
 body {	
 	background-image: url("images/background.jpg");
-	color: white;
 }
 
 /* Define Font for content of website */
-h1, h2, h3, h4, p {
+h1, h2, h3, h4 {
 	font-family: Verdana, sans-serif;
+	color: white;
 }
 
 /* Body container */
@@ -211,6 +211,7 @@ a:hover {
 .body-inner {
 	margin: 5px auto;
 	width: 85%; 
+	color: black;
 	background-color: #E8E8E8;
 }
 
@@ -294,6 +295,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
