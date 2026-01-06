@@ -256,7 +256,8 @@ a:hover {
 .backtopbutton button {
 	font-size: 20px;
 	padding: 5px 10px;
-	background-color:orange;
+	color: black;
+	background-color: lightgray;
 	font-weight:bold;
 }
 
@@ -283,6 +284,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
