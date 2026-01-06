@@ -145,6 +145,7 @@ a:hover {
 .skill-list-item img {
 	width: 100%;	/* fit the whole area */
 	height: 40%;
+	background-color: white;
 }
 
 /* configuration for image description */
@@ -152,6 +153,7 @@ a:hover {
 	padding: 10px;
 	position: relative;
 	text-align: center;
+	background-color: lightgray;
 }
 
 /* Image Gallery with description */
@@ -277,6 +279,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
