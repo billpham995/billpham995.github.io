@@ -40,7 +40,6 @@ h1, h2, h3, h4, p {
   div.skill-list-item, div.imgGallery-item {
     width: calc(50% - 20px);
   }
-	
 }
 
 @media only screen and (max-width: 480px) {
@@ -48,7 +47,6 @@ h1, h2, h3, h4, p {
   div.skill-list-item, div.imgGallery-item {
     width: calc(100% - 20px);
   }
-	
 }
 
 /* Container for introduction banner */
@@ -102,19 +100,6 @@ h1, h2, h3, h4, p {
 	position: relative;
 	text-align: center;
 }
-
-/* @media only screen and (max-width: 768px) {
-  div.skill-list-item {
-    width: calc(50% - 20px);
-  }
-} */
-
-/* @media only screen and (max-width: 480px) {
-  div.skill-list-item {
-    width: calc(100% - 20px);
-  }
-} */
-
 
 /* Float left for image with long paragraph of description */	
 .body-inner {
@@ -184,19 +169,6 @@ h1, h2, h3, h4, p {
 	text-align: center;
 }
 
-/* @media only screen and (max-width: 768px) {
-  div.imgGallery-item {
-    width: calc(50% - 20px);
-  }
-} */
-
-/* @media only screen and (max-width: 480px) {
-  div.imgGallery-item {
-    width: calc(100% - 20px);
-  }
-} */
-
-
 /* Navigation bar */
 nav {
 	text-align: center;
@@ -219,7 +191,7 @@ nav {
 /* Navigation link & visited */
 nav a:link, nav a:visited {
 	display: block;
-	color: black;
+	color: white;
 	padding: 5px 10px; /* size of link container (height-width) */
 	text-decoration: none; /* remove underscore */
 	border: 1px solid black;/* Add border around each link */
@@ -227,7 +199,7 @@ nav a:link, nav a:visited {
 
 /* When mouse cursor hovers the individual nav element */
 nav a:hover {
-	color: blue;
+	color: green;
 }
 
 /* Highlight current active bar */
@@ -278,6 +250,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
