@@ -12,7 +12,7 @@ body {
 }
 
 /* Define Font for content of website */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p {
 	font-family: Verdana, sans-serif;
 	color: white;
 }
@@ -145,11 +145,12 @@ a:hover {
 	width: 200px; 
 	max-height: 450px;
 	/* max-height: auto; */
+	color: black;
 	background-color: #F0F0F0;
 }
 
 /* when container is hovered by mouse */
-/* div.skill-list-item:hover {
+/* .skill-list-item:hover {
 	border: 3px solid #777;
 } */
 
@@ -157,7 +158,6 @@ a:hover {
 .skill-list-item img {
 	width: 100%;	/* fit the whole area */
 	height: 40%;
-	/* background-color: white; */
 }
 
 /* configuration for image description */
@@ -165,9 +165,6 @@ a:hover {
 	padding: 10px;
 	position: relative;
 	text-align: center;
-	color: black;
-	/* background-color: #F0F0F0; */
-	/* background-color: lightgray; */
 }
 
 /* Image Gallery with description */
@@ -185,7 +182,8 @@ a:hover {
 	border: 1px solid #ccc;
 	width: 300px; 
 	/* height: 400px; */
-	/* background-color: #F0F0F0; */
+	color: black;
+	background-color: #F0F0F0;
 }
 
 /* when container is hovered by mouse */
@@ -211,8 +209,6 @@ a:hover {
 .body-inner {
 	margin: 5px auto;
 	width: 85%; 
-	color: black;
-	background-color: #E8E8E8;
 }
 
 .body-inner div.text {
@@ -225,16 +221,18 @@ a:hover {
   float: left;
   max-width: 230px;
   max-height: 300px; 
-  /* distance the text away from the image by 20 pixel */
+  /* distance the text away from the image by 30 pixel */
   /* margin-right: 30px;  */
-  margin: 0 15px 10px 0;
+  margin: 0 30px 10px 0;
 }
 /* Horizontal image */
 #imgLeft2 {
   float: left;
-  width: 300px;
-  height: 200px; 
-  margin-right: 30px; /* distance the text away from the image by 20 pixel */
+  max-width: 300px;
+  max-height: 200px; 
+  /* distance the text away from the image by 30 pixel */
+  /* margin-right: 30px;  */
+  margin: 0 30px 10px 0;
 }
 
 /* On smaller screen: */
@@ -295,6 +293,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
