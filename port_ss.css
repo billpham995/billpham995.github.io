@@ -136,7 +136,7 @@ a:hover {
 	margin: 5px;
 	border: 2px solid #ccc;
 	width: 200px; 
-	/* height: 450px; */
+	max-height: 450px;
 	height: auto;
 }
 
@@ -285,6 +285,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
