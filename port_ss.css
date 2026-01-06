@@ -12,7 +12,7 @@ body {
 }
 
 /* Define Font for content of website */
-h1, h2, h3, h4, p, li {
+h1, h2, h3, h4, p, ul, li {
 	font-family: Verdana, sans-serif;
 	color: white;
 }
@@ -284,6 +284,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
