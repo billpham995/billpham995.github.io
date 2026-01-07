@@ -38,7 +38,20 @@ h1, h2, h3, h4, p, ul, li {
 @media only screen and (max-width: 768px) {
 
   div.skill-list-item, div.imgGallery-item {
-    width: calc(50% - 10px);
+    width: calc(45% - 10px);
+  }
+	
+  div.skill-list-item img {
+	/* Make image square */
+	width: 300px;
+    height: 300px;
+	  
+	/* Stop image from distortion */
+    object-fit: cover;
+    
+    /* Center the smaller images in the container */
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -305,6 +318,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
