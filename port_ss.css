@@ -44,12 +44,8 @@ h1, h2, h3, h4, p, ul, li {
 
 @media only screen and (max-width: 480px) {
 	
-  div.skill-list-item {
-    width: calc(80% - 20px);
-  }
-
-  div.imgGallery-item {
-    width: calc(100% - 20px);
+  div.skill-list-item, div.imgGallery-item {
+    width: calc(85% - 10px);
   }
 }
 
@@ -137,7 +133,7 @@ a:hover {
 
 /* Skills List individual container */
 .skill-list-item {
-	margin: 5px;
+	margin: 5px auto;
 	border: 2px solid #ccc;
 	width: 200px; 
 	max-height: 450px;
@@ -288,6 +284,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
