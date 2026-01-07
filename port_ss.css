@@ -83,12 +83,12 @@ nav a:link, nav a:visited {
 
 /* When mouse cursor hovers the individual nav element */
 nav a:hover {
-	color: green;
+	color: #556b2f;
 }
 
 /* Highlight current active bar */
 nav a.active {
-	background-color: green;
+	background-color: #556b2f;
 	color: white;
 }
 
@@ -288,6 +288,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
