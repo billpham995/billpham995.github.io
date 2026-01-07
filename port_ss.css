@@ -43,8 +43,8 @@ h1, h2, h3, h4, p, ul, li {
 	
   div.skill-list-item img {
 	/* Make image square */
-	width: 300px;
-    height: 300px;
+	width: 250px;
+    height: 250px;
 	  
 	/* Stop image from distortion */
     object-fit: cover;
@@ -318,6 +318,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
