@@ -86,7 +86,9 @@ nav {
 nav a:link, nav a:visited {
 	display: block;
 	color: black;
-	padding: 5px 10px; /* size of link container (height-width) */
+
+	/* First value is for top and bottom padding; second value is for right and left padding. Padding creates space */
+	padding: 5px 10px;
 	text-decoration: none; /* remove underscore */
 	border: 1px solid black;/* Add border around each link */
 }
@@ -150,7 +152,7 @@ a:hover {
 	margin: 5px auto;
 	border: 2px solid #ccc;
 	width: 200px; 
-	max-height: 420px;
+	/* max-height: 420px; */
 	/* max-height: auto; */
 	background-color: #556b2f;
 }
@@ -173,7 +175,7 @@ a:hover {
 	text-align: center;
 }
 .skill-list-item div.desc p{
-	padding: 2px 5px 5px 5px;
+	padding: 2px 0px 2px 8px;
 	position: relative;
 	text-align: ;
 }
@@ -303,6 +305,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
