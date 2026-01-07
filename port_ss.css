@@ -59,6 +59,7 @@ h1, h2, h3, h4, p, ul, li {
     /* Center the smaller images in the container */
     display: block;
     margin: 0 auto;
+  }
 }
 
 /* Navigation bar */
@@ -296,6 +297,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
