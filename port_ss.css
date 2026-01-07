@@ -45,8 +45,20 @@ h1, h2, h3, h4, p, ul, li {
 @media only screen and (max-width: 480px) {
 	
   div.skill-list-item, div.imgGallery-item {
-    width: calc(85% - 10px);
+    width: calc(90% - 10px); /* Previously, testing with 85% width which led to good result on phone screen */
   }
+	
+  div.skill-list-item img {
+	/* Make image square */
+	width: 150px;
+    height: 150px;
+	  
+	/* Stop image from distortion */
+    object-fit: cover;
+    
+    /* Center the smaller images in the container */
+    display: block;
+    margin: 0 auto;
 }
 
 /* Navigation bar */
@@ -284,6 +296,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
