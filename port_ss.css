@@ -168,12 +168,12 @@ a:hover {
 
 /* configuration for image description */
 .skill-list-item div.desc h3 {
-	padding: 5px;
+	padding: 2px;
 	position: relative;
 	text-align: center;
 }
 .skill-list-item div.desc p{
-	padding: 2px 2px 2px 2px;
+	padding: 2px 5px 5px 5px;
 	position: relative;
 	text-align: ;
 }
@@ -303,6 +303,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
