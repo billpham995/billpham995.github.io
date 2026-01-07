@@ -169,7 +169,7 @@ a:hover {
 .skill-list-item div.desc {
 	padding: 10px;
 	position: relative;
-	text-align: justify;
+	text-align: center;
 }
 
 /* Image Gallery with description */
@@ -206,7 +206,7 @@ a:hover {
 .imgGallery-item div.desc {
 	padding: 10px;
 	position: relative;
-	text-align: justify;
+	text-align: center;
 }
 
 /* Container for inner body content  */	
@@ -297,6 +297,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
