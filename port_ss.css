@@ -173,7 +173,7 @@ a:hover {
 	text-align: center;
 }
 .skill-list-item div.desc p{
-	padding: 5px;
+	padding: 2px 2px 2px 2px;
 	position: relative;
 	text-align: ;
 }
@@ -303,6 +303,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
