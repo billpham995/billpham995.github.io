@@ -15,7 +15,7 @@ body {
 h1, h2, h3, h4, p, ul, li {
 	font-family: Verdana, sans-serif;
 	color: white;
-	text-align: justify;
+	/* text-align: justify; */
 }
 
 /* Body container */
@@ -237,6 +237,7 @@ a:hover {
 .body-inner {
 	margin: 5px auto;
 	width: 85%; 
+	text-align: justify;
 }
 
 .body-inner div.text {
@@ -321,6 +322,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
