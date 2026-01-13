@@ -116,7 +116,8 @@ nav a:link, nav a:visited {
 
 /* When mouse cursor hovers the individual nav element */
 nav a:hover {
-	color: #556b2f;
+	background-color: #556b2f;
+	color: white;
 }
 
 /* Highlight current active bar */
@@ -220,9 +221,9 @@ a:hover {
 }
 
 /* when container is hovered by mouse */
-.imgGallery-item:hover {
+/* .imgGallery-item:hover {
 	border: 3px solid #777;
-}
+} */
 
 /* configuration for image area inside gallery container */
 .imgGallery-item img {
@@ -254,6 +255,11 @@ a:hover {
   color: black;
   background-color: lightgray;
   font-size: 16px;
+}
+
+.imgGallery-item div.zoom_button:hover {
+	background-color: #556b2f;
+	color: white;
 }
 
 /* Container for inner body content  */	
@@ -345,6 +351,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
