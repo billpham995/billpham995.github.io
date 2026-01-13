@@ -12,10 +12,15 @@ body {
 }
 
 /* Define Font for content of website */
-h1, h2, h3, h4, p, ul, li {
+h1, h2, h3 {
 	font-family: Verdana, sans-serif;
 	color: white;
-	/* text-align: justify; */
+}
+
+h4, p, ul, li {
+	font-family: Verdana, sans-serif;
+	color: white;
+	font-size: 16px; /* Minimum font size of 16px for readbility */
 }
 
 /* Body container */
@@ -322,6 +327,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
