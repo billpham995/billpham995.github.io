@@ -249,9 +249,11 @@ a:hover {
 
 .imgGallery-item div.zoom_button {
   position: absolute;
-  bottom: 8px;
-  right: 16px;
-  color: red;
+  bottom: 5px;
+  right: 1px;
+  color: black;
+  background-color: lightgray;
+  font-size: 16px;
 }
 
 /* Container for inner body content  */	
@@ -343,6 +345,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
