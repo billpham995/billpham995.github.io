@@ -238,6 +238,15 @@ a:hover {
 	text-align: center;
 }
 
+.imgGallery-item div.imgCon {
+	width: 100%;	/* fit the whole area */
+	height: auto;
+	/* height: 70%; */
+
+  position: relative;
+  text-align: center;
+}
+
 .imgGallery-item div.zoom_button {
   position: absolute;
   bottom: 8px;
@@ -334,6 +343,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
