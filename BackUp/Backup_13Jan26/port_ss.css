@@ -1,0 +1,528 @@
+/* CSS stylesheet for my portfolio */
+
+
+/* Smooth Scroll */
+html {
+	scroll-behaviour: smooth;
+}
+
+/* Background of website */
+body {	
+	background-image: url("images/background.jpg");
+}
+
+/* Define Font for content of website */
+h1, h2, h3, h4, p, ul, li {
+	font-family: Verdana, sans-serif;
+	color: white;
+}
+
+/* Body container */
+.body_con {
+	width: 90%;
+	height: auto;
+	margin: auto;
+
+	/* display: flex;
+	align-items: center;
+	gap: 20px; */
+	
+	/* border: 0; */
+	/* border edges */
+	/* border-radius: 15px; */
+	/* if content overflows, scroll bar is added to scroll, and stop it and images go over the container border */
+	/* overflow: auto; 		 */
+}
+
+/* Fit content display on smaller screens */
+@media only screen and (max-width: 768px) {
+
+  div.skill-list-item, div.imgGallery-item {
+    width: calc(45% - 10px);
+  }
+	
+  div.skill-list-item img {
+	/* Make image square */
+	width: 250px;
+    height: 250px;
+	  
+	/* Stop image from distortion */
+    object-fit: cover;
+    
+    /* Center the smaller images in the container */
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+	
+  div.skill-list-item, div.imgGallery-item {
+    width: calc(90% - 10px); /* Previously, testing with 85% width which led to good result on phone screen */
+  }
+	
+  div.skill-list-item img {
+	/* Make image square */
+	width: 150px;
+    height: 150px;
+	  
+	/* Stop image from distortion */
+    object-fit: cover;
+    
+    /* Center the smaller images in the container */
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* Navigation bar */
+nav {
+	text-align: center;
+	font-size: 20px;
+	/* width: 99%; */
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightgray;
+
+	/* Nav bar follow when scrolling */
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	
+	/* put nav to horizonal style */
+	display: flex;
+	justify-content: center; /* align the whole content to center */
+}
+
+/* Navigation link & visited */
+nav a:link, nav a:visited {
+	display: block;
+	color: black;
+
+	/* First value is for top and bottom padding; second value is for right and left padding. Padding creates space */
+	padding: 5px 10px;
+	text-decoration: none; /* remove underscore */
+	border: 1px solid black;/* Add border around each link */
+}
+
+/* When mouse cursor hovers the individual nav element */
+nav a:hover {
+	color: #556b2f;
+}
+
+/* Highlight current active bar */
+nav a.active {
+	background-color: #556b2f;
+	color: white;
+}
+
+/* Link and visited */
+a:link {
+	color: lightblue;
+	/* background-color: lightgray; */
+	text-decoration: none;
+}
+
+a:visited {
+	/* 551A8B is standard color for visited link */
+	/* color: #551A8B; */
+	color: #dda0dd;
+}
+
+a:hover {
+	color: white;
+}
+
+/* Container for introduction banner */
+#intro_banner {
+  	background-image: url("images/forHome/meHD.png");
+ 	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+ 	height: 450px; /* Set a specific height for the container */
+  	width: 100%; /* Optional: set width as needed */
+
+ 	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+	color: white;
+  	/* overflow: hidden; */
+  	position: relative;
+}
+
+/* Skills List with image */
+/* Skills List body */
+.skill-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+/* Skills List individual container */
+.skill-list-item {
+	margin: 5px auto;
+	border: 2px solid #ccc;
+	width: 200px; 
+	/* max-height: 420px; */
+	/* max-height: auto; */
+	background-color: #556b2f;
+}
+
+/* when container is hovered by mouse */
+/* .skill-list-item:hover {
+	border: 3px solid #777;
+} */
+
+/* configuration for image area inside gallery container */
+.skill-list-item img {
+	width: 100%;	/* fit the whole area */
+	height: 40%;
+}
+
+/* configuration for image description */
+.skill-list-item div.desc h3 {
+	padding: 2px;
+	position: relative;
+	text-align: center;
+}
+.skill-list-item div.desc p{
+	padding: 2px 0px 2px 8px;
+	position: relative;
+	text-align: ;
+}
+
+/* Image Gallery with description */
+/* gallery body */
+.imgGallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	/* margin: 5px auto; */
+}
+
+/* gallery individual container */
+.imgGallery-item {
+	margin: 5px auto;
+	border: 1px solid #ccc;
+	width: 300px; 
+	/* height: 400px; */
+	background-color: #556b2f ;
+}
+
+/* when container is hovered by mouse */
+.imgGallery-item:hover {
+	border: 3px solid #777;
+}
+
+/* configuration for image area inside gallery container */
+.imgGallery-item img {
+	width: 100%;	/* fit the whole area */
+	height: auto;
+	/* height: 70%; */
+}
+
+/* configuration for image description */
+.imgGallery-item div.desc {
+	padding: 5px;
+	position: relative;
+	text-align: center;
+}
+
+/* Container for inner body content  */	
+.body-inner {
+	margin: 5px auto;
+	width: 85%; 
+}
+
+.body-inner div.text {
+  overflow: hidden; /* text do not stick under the picture */
+}
+
+/* Float left options for image with long paragraph of description */
+/* Vertical image */
+#imgLeft1 {
+  float: left;
+  max-width: 230px;
+  max-height: 300px; 
+  /* distance the text away from the image by 30 pixel */
+  /* margin-right: 30px;  */
+  margin: 0 30px 10px 0;
+}
+/* Horizontal image */
+#imgLeft2 {
+  float: left;
+  max-width: 300px;
+  max-height: 200px; 
+  /* distance the text away from the image by 30 pixel */
+  /* margin-right: 30px;  */
+  margin: 0 30px 10px 0;
+}
+
+/* On smaller screen. This does not work if combined with the above */
+@media (max-width: 480px) {
+	#imgLeft1, #imgLeft2 {
+		float: none;
+		display: block ;
+		margin: 0 auto 15px;
+		max-width: 100%;
+	}
+}
+
+/* An empty container to make the next session paragraph does not warp around the image */
+.clearWarp {
+	clear: both;
+	display: block;
+}
+
+/* Back to Top Button */		
+.backtopbutton {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	position:fixed;
+	top: 50%;
+	right: 10px;
+	text-decoration: none; /* removes underline */
+}
+
+.backtopbutton button {
+	font-size: 20px;
+	padding: 5px 10px;
+	color: black;
+	background-color: lightgray;
+	font-weight:bold;
+}
+
+/* Embed configuration to center of the screen */
+iframe {
+    /* Required for margin: auto to work */
+	display: block; 
+    /* Centers horizontally */
+	margin: 0 auto;
+	max-width: 100%;
+	max-height: auto;
+	border: none;
+}
+
+/* Signature */
+#mysign	{
+	text-align: center;
+	color: ;
+	background-color: #556b2f;
+	margin-bottom: 0;
+	clear: right;
+				
+	/* create border edge */
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;			
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
