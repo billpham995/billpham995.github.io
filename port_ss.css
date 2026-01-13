@@ -225,14 +225,6 @@ a:hover {
 	border: 3px solid #777;
 } */
 
-/* configuration for image area inside gallery container */
-.imgGallery-item img {
-	/* fit the whole area */
-	/* width: 100%;	 */
-	/* height: 70%; */
-	/* height: auto;	 */
-}
-
 /* configuration for image description */
 .imgGallery-item div.desc {
 	padding: 5px;
@@ -240,11 +232,16 @@ a:hover {
 	text-align: center;
 }
 
+/* configuration for image */
+.imgGallery-item img {
+	/* fit the whole area */
+	width: 100%;	
+	height: 70%;
+	/* height: auto;	 */
+}
+
 /* configuration for image area inside gallery container */
 .imgGallery-item div.imgCon {
-	width: 100%;	/* fit the whole area */
-	height: auto;
-	/* height: 70%; */
 	position: relative;
 	text-align: center;
 }
@@ -357,6 +354,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
