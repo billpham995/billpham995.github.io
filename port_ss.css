@@ -238,18 +238,6 @@ a:hover {
 	text-align: center;
 }
 
-.imgGallery-item span.zoom_in {
-  position: absolute;
-  top: 8px;                /* distance from top */
-  right: 8px;              /* distance from right */
-  font-size: 24px;         /* icon size */
-  background-color: rgba(255, 255, 255, 0.7); /* optional: semi-transparent background */
-  padding: 4px;
-  border-radius: 50%;      /* make it circular */
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
 /* Container for inner body content  */	
 .body-inner {
 	margin: 5px auto;
@@ -339,6 +327,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
