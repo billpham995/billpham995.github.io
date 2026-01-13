@@ -193,7 +193,7 @@ a:hover {
 .skill-list-item div.desc p{
 	padding: 2px 0px 2px 8px;
 	position: relative;
-	text-align: ;
+	text-align: left;
 }
 
 /* Image Gallery with description */
@@ -321,6 +321,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
