@@ -116,7 +116,7 @@ nav a:link, nav a:visited {
 
 /* When mouse cursor hovers the individual nav element */
 nav a:hover {
-	background-color: #556b2f;
+	background-color: blue;
 	color: white;
 }
 
@@ -243,22 +243,21 @@ a:hover {
 	width: 100%;	/* fit the whole area */
 	height: auto;
 	/* height: 70%; */
-
-  position: relative;
-  text-align: center;
+	position: relative;
+	text-align: center;
 }
 
 .imgGallery-item div.zoom_button {
-  position: absolute;
-  bottom: 5px;
-  right: 1px;
-  color: black;
-  background-color: lightgray;
-  font-size: 16px;
+  	position: absolute;
+ 	bottom: 5px;
+ 	right: 1px;
+ 	color: black;
+ 	background-color: lightgray;
+ 	font-size: 16px;
 }
 
 .imgGallery-item div.zoom_button:hover {
-	background-color: #556b2f;
+	background-color: blue;
 	color: white;
 }
 
@@ -351,6 +350,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
