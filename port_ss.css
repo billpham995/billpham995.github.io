@@ -84,7 +84,7 @@ nav {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: lightgray;
+	/* background-color: lightgray; */
 
 	/* Nav bar follow when scrolling */
 	position: sticky;
@@ -94,12 +94,14 @@ nav {
 	/* put nav to horizonal style */
 	display: flex;
 	justify-content: center; /* align the whole content to center */
+	align-items: center;
 }
 
 /* Navigation link & visited */
 nav a:link, nav a:visited {
-	display: block;
+	display: inline-block;
 	color: black;
+	background-color: lightgray;
 
 	/* First value is for top and bottom padding; second value is for right and left padding. Padding creates space */
 	padding: 5px 10px;
@@ -319,6 +321,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
