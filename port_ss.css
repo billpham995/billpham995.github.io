@@ -327,6 +327,11 @@ a:hover {
 	font-weight:bold;
 }
 
+.backtopbutton button:hover {
+	background-color: blue;
+	color: white;
+}
+
 /* Embed configuration to center of the screen */
 iframe {
     /* Required for margin: auto to work */
@@ -350,6 +355,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
