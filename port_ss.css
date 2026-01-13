@@ -141,7 +141,7 @@ a:hover {
  	background-size: cover;
   	background-position: center;
   	background-repeat: no-repeat;
- 	height: 450px; /* Set a specific height for the container */
+ 	height: 350px; /* Set a specific height for the container */
   	width: 100%; /* Optional: set width as needed */
 
  	display: flex;
@@ -183,7 +183,7 @@ a:hover {
 }
 
 /* configuration for image description */
-.skill-list-item div.desc h3 {
+.skill-list-item div.desc h4 {
 	padding: 2px;
 	position: relative;
 	text-align: center;
@@ -319,6 +319,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
