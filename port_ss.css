@@ -215,7 +215,7 @@ a:hover {
 .imgGallery-item {
 	margin: 5px auto;
 	border: 1px solid #ccc;
-	width: 300px; 
+	width: 350px; 
 	/* height: 400px; */
 	background-color: #556b2f ;
 }
@@ -354,6 +354,7 @@ iframe {
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;			
 }
+
 
 
 
